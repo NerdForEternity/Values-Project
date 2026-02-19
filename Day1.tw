@@ -1,0 +1,26 @@
+:: Play [body] {"position":"0,300"} 
+STARTING PASSAGE <<$dysphoria>>
+[[Return|Day1]]
+
+:: Day1 [body] {"position":"200,300"}
+[[Look in the mirror|Day1_LookInMirror]]
+[[Rot in bed|Day1_Isolate]]
+[[Spend some time programming|Day1_EnjoyHobby]]
+[[Have a cigarette|Day1_Smoking]]
+[[Socialize|Day1_Socialize]]
+
+
+:: Day1_LookInMirror [body] {"position":"400,300"} 
+[[Return|Day1]]
+
+:: Day1_Isolate [body] {"position":"400,400"} 
+[[Return|Day1]]
+
+:: Day1_EnjoyHobby [body] {"position":"400,200"}
+[[Return|Day1]]
+
+:: Day1_Smoking [body] {"position":"400,100"} 
+[[Return|Day1]]
+
+:: Day1_Socialize [body] {"position":"400,500"} 
+[[Return|Day1]] 

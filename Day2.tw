@@ -1,0 +1,25 @@
+:: PlayDay2 [body] {"position":"0,300"} 
+STARTING PASSAGE $dysphoria 
+[[Day2]]
+
+:: Day2 [body] {"position":"200,300"} 
+[[Day2_LookInMirror]]
+[[Day2_Isolate]]
+[[Day2_EnjoyHobby]]
+[[Day2_Smoking]]
+[[Socialize|Day2_Socialize]]
+
+
+:: Day2_LookInMirror [body] {"position":"400,300"} 
+
+:: Day2_Isolate [body] {"position":"400,400"} 
+[[Day2]]
+
+:: Day2_EnjoyHobby [body] {"position":"400,200"} 
+[[Day2]]
+
+:: Day2_Smoking {"position":"400,200"} 
+[[Day2]]
+
+:: Day2_Socialize [body] {"position":"400,500"} 
+[[Day2]] 

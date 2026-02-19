@@ -1,0 +1,23 @@
+:: StoryTitle
+Your Reflection
+
+:: Start
+DEBUG BUT WELCOME
+[[Play]]
+
+:: StoryData
+{
+    "ifid": "81316089-9A52-4EAC-8DF5-9E34970A692C",
+    "format": "SugarCube",
+    "format-version": "2.30.0"
+}
+
+:: StoryInit
+/* Story Variables */
+/* Dysphoria Gauge ranges from -1 to 1, with -1 being a negative self-image 
+and 1 being a positive self-image */
+
+$name = "";
+$dysphoria = 0;
+
+
