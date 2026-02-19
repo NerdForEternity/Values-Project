@@ -1,8 +1,23 @@
 :: StoryTitle
 Your Reflection
 
+:: StoryInit
+/* Story Variables */
+$name = "";
+
+$reflection = 0; /* Reflection functions as a Dysphoria Gauge & ranges from -1 to 1, with -1 being a negative self-image and 1 being a positive self-image */
+$spoons = 0; /* Spoon Gauge ranges from 0 to 5, with 0 being no energy and 5 being full energy */
+
+$isolation = 0; /* Isolation Gauge ranges from 0 to 10, with 0 being no isolation and 10 being complete isolation */
+$socialization = 0; /* Socialization Gauge ranges from 0 to 10, with 0 being no socialization and 10 being full socialization */
+$hobbyEnjoyment = 0; /* Hobby Enjoyment Gauge ranges from 0 to 10, with 0 being no enjoyment and 10 being full enjoyment */
+$smoking = 0; /* Smoking Gauge ranges from 0 to 10, with 0 being no smoking and 10 being heavy smoking */
+
+
 :: Start
-DEBUG BUT WELCOME
+You have been born a boy. You don't get to pick. However, you can choose your name. What is your name?
+
+<<set $name to prompt("What is your name?", "Default Name")>>
 [[Play]]
 
 :: StoryData
@@ -12,12 +27,7 @@ DEBUG BUT WELCOME
     "format-version": "2.30.0"
 }
 
-:: StoryInit
-/* Story Variables */
-/* Dysphoria Gauge ranges from -1 to 1, with -1 being a negative self-image 
-and 1 being a positive self-image */
 
-$name = "";
-$dysphoria = 0;
+
 
 
